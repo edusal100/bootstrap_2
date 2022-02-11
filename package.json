@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap_2",
+  "version": "1.0.0",
+  "description": "Simple website created with bootstrap 5.1 (5 pages)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edusal100/bootstrap_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edusal100/bootstrap_2/issues"
+  },
+  "homepage": "https://github.com/edusal100/bootstrap_2#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
