@@ -1,20 +1,20 @@
-
-// custom variables
-$primary: yellow;
-$light: rgb(66, 66, 66);
-
-// import the functions & variables
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-
-// custom maps
-$custome-theme-colors: (
-    "altlight": #f2ebfa,
-    "altdark": #522192
-);
-
-$themes-colors: map-merge($custome-theme-colors, $theme-colors);
-
+// variables
+$purple-dark: #9926f0;
+$purple-light: #bb6ef5;
+$pink: #d122e3;
+$primary: $purple-dark;
+$secondary: $pink;
 
 // import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+// custom style
+.gradient { outline: none;
+    background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100% );
+    background-size: 400%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
