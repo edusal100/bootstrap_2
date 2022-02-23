@@ -1,16 +1,9 @@
 // import custom scss
-@import 'variables';
+@import 'global';
+
+// importing custom font
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap');
 
 // import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
-
-
-// custom style
-.gradient { outline: none;
-    background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100% );
-    background-size: 400%;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
 
